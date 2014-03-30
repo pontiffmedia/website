@@ -1,0 +1,11 @@
+body {
+background-color:white;
+}
+.enabled {
+opacity:1;
+transition: opacity .5s linear;
+}
+.disabled {
+opacity:0;
+transition: opacity .5s linear, display 1s linear;
+}
